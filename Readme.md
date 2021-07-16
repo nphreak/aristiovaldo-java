@@ -1,13 +1,13 @@
-# O Falador
+# Aristiovaldo - O Falador
 # Author: Pedro 'nPhreak' Rodrigues
 
-"O Falador" project, a Python + Arduino project. Turn audio into jaw movement.
+The "Aristiovaldo" project is a Java + Arduino project. The main objective is to turn audio into jaw movement.
 
 A ideia é criar um programinha pra transformar audio em movimentos de um servo motor.
 
 Por questões de organização, vou dividir em 3 áreas, 2 standalones e uma de integração.
 
-Primeira parte é um App com python e interface capaz de identificar algum áudio (google ou gravação) e "separar sílabas".
+Primeira parte é um App com Java e interface capaz de identificar algum áudio (voz do google tradutor ou gravação) e "separar sílabas".
 Baseado nas sílabas identificadas, enviar via serial para o arduino comandos para o servo-motor conectado.
     
 - O App
@@ -19,7 +19,7 @@ Baseado nas sílabas identificadas, enviar via serial para o arduino comandos pa
         - Interface para facilitar o uso.
 
     - Barreiras/Impedimentos
-        - Pouca experiência com python
+        - Pouca experiência com Java
         - Não faço ideia de como analisa audio.
         - Perco o foco e provavelmente vou abandonar o projeto no meio (e por meio entenda depois de uns 2 dias cutucando).
 
